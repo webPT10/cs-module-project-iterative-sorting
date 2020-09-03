@@ -28,25 +28,4 @@ def binary_search(arr, target):
         else:
             return middle
 
-    # #set two different pointers, low & high
-    # low = 0 # first item
-    # high = len(arr) - 1 # last item
-
-    # # Your code here
-    # while low <= high: # loop while low pointer LESS/EQUAL to high point
-    #     # middle index, variable middle
-    #     middle = (low + high) // 2 # average low & high divide by 2
-    #     the_guess = arr[middle] # middle index used to retrieve item w/ that index from List
-        
-    #     # set up logic using IF statements
-    #     if the_guess == target:
-    #         return middle
-
-    #     if the_guess > target:
-    #         high = middle - 1 # change HIGH pointer to index directly below current MIDDLE value
-        
-    #     else:
-    #         low = middle + 1 # change LOW pointer to be equal to index directly after current MIDDLE value
-
-        # if reaching here, Element not present
     return -1  # not found
